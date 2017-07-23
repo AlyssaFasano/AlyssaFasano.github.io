@@ -1,0 +1,21 @@
+# Site settings
+title: Just Keep Swimming, Just Keep Swimming!
+header-img: img/home-bg.png
+email: alyssalofasano@gmail.com
+copyright_name: AlyssaFasano
+description: > # this means to ignore newlines until "baseurl:"
+  The Dory Approach to Life
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  AlyssaFasano
+learn_profile: AlyssaFasano
+email_username: alyssalofasano@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
